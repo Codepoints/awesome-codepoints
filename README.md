@@ -7,6 +7,7 @@ This is a curated list of codepoints, that have great (and maybe not widely know
 * U+1680 OGHAM SPACE MARK - a space that looks like a dash. Great to bring programmers close to madness: `1 +  2 === 3`
 * U+037E GREEK QUESTION MARK - a look-alike to the semicolon. Also a fun way to annoy developers.
 * U+D800 to U+DFFF - surrogate codepoints. They are only reserved to ease UTF-16 encoding.
+* U+2E2E REVERSED QUESTION MARK - the “irony mark” to express irony/sarcasm.
 
 ## Codepoints that change other characters
 
@@ -14,6 +15,7 @@ This is a curated list of codepoints, that have great (and maybe not widely know
 * U+FE0F VARIATION SELECTOR-16 - force black-_&_-white emoji
 * U+00A0 NO-BREAK SPACE - force adjacent characters to stick together
 * U+2060 WORD JOINER - the same as U+00A0, but completely invisible. Good for writing `@font-face` on Twitter
+* U+200D ZERO WIDTH JOINER - force adjacent characters to be joined together (e.g., arabic characters or supported emoji). Apple uses this to compose some emoji like different families.
 
 ## Record holders and extremes
 
@@ -24,3 +26,8 @@ This is a curated list of codepoints, that have great (and maybe not widely know
 * U+FDFA ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM - longest decomposition form: 18 characters
 
 ## For funsies
+
+* U+1D455 is missing. It would be an italic small “h”. It was not encoded, because it would be identical to the Planck constant ℎ (U+210E).
+* U+1F918 SIGN OF THE HORNS - Rock on!
+* U+F8FF PRIVATE USE CODEPOINT - this private use codepoint is rendered as Apple logo on many Apple devices.
+* U+1DD2 COMBINING US ABOVE - most romantic codepoint
