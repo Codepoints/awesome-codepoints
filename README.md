@@ -1,6 +1,13 @@
 # Awesome Codepoints [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-This is a curated list of codepoints, that have great (and maybe not widely known) features or are awesome in some other way.
+This is a curated list of characters in Unicode, that have interesting (and maybe not widely known) features or are awesome in some other way.
+
+## Table of contents
+
+1. [Standalone codepoints](#standalone-codepoints)
+2. [Codepoints that affect others](#codepoints-that-affect-others)
+3. [Record holders and extremes](#record-holders-and-extremes)
+4. [For funsies](#for-funsies)
 
 ## Standalone codepoints
 
@@ -9,7 +16,7 @@ This is a curated list of codepoints, that have great (and maybe not widely know
 * U+D800 to U+DFFF - surrogate codepoints. They are only reserved to ease UTF-16 encoding.
 * U+2E2E REVERSED QUESTION MARK - the “irony mark” to express irony/sarcasm.
 
-## Codepoints that change other characters
+## Codepoints that affect others
 
 * U+FE0E VARIATION SELECTOR-15 - force colorful emoji
 * U+FE0F VARIATION SELECTOR-16 - force black-_&_-white emoji
