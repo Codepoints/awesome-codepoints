@@ -15,6 +15,7 @@ This is a curated list of characters in Unicode, that have interesting (and mayb
 * U+037E GREEK QUESTION MARK - a look-alike to the semicolon. Also a fun way to annoy developers.
 * U+D800 to U+DFFF - surrogate codepoints. They are only reserved to ease UTF-16 encoding.
 * U+2E2E REVERSED QUESTION MARK - the “irony mark” to express irony/sarcasm.
+* U+FFFD REPLACEMENT CHARACTER - when a character cannot be displayed (e.g., decoding an erroneous UTF-8 sequency), this codepoint steps into the breach.
 
 ## Codepoints that affect others
 
@@ -23,6 +24,11 @@ This is a curated list of characters in Unicode, that have interesting (and mayb
 * U+00A0 NO-BREAK SPACE - force adjacent characters to stick together
 * U+2060 WORD JOINER - the same as U+00A0, but completely invisible. Good for writing `@font-face` on Twitter
 * U+200D ZERO WIDTH JOINER - force adjacent characters to be joined together (e.g., arabic characters or supported emoji). Apple uses this to compose some emoji like different families.
+* U+200B ZERO WIDTH SPACE - the inverse to U+00A0: create no space, but allow word breaking.
+* U+00AD SOFT HYPHEN - (in HTML: &amp;shy;) like ZERO WIDTH SPACE, but show a hyphen if (and only if) a break occurs
+* U+202D and U+202E - change the text direction. Relevant XKCD:
+    
+    [![](http://imgs.xkcd.com/comics/rtl.png )](https://xkcd.com/1137/)
 
 ## Record holders and extremes
 
