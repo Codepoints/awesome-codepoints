@@ -104,6 +104,10 @@ maybe not widely known) features or are awesome in some other way.
     characters.
 * [U+FDFA](https://codepoints.net/U+FDFA) ARABIC LIGATURE SALLALLAHOU ALAYHE
     WASALLAM - longest decomposition form: 18 characters.
+* [U+5146](https://codepoints.net/U+5146) and
+    [U+16B61](https://codepoints.net/U+16B61) - codepoints that represent the
+    highest “single-digit” number. In both cases that’s 1,000,000,000,000, a
+    trillion.
 
 ## For Funsies
 
