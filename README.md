@@ -69,6 +69,17 @@ maybe not widely known) features or are awesome in some other way.
 
     Of course, one can also do fun things with those characters like
     [this answer](http://stackoverflow.com/a/1732454/113195) on StackOverflow.
+* The [Regional Indicator Symbols](https://codepoints.net/U+1F1E6..U+1F1FF)
+    U+1F1E6 to U+1F1FF resemble the 26 latin characters. They are used to
+    create flag emoji. Since the Unicode consortium didn’t feel like getting on
+    board with international politics, the solution to flags is to combine
+    these 26 characters to the respective ISO code for a country. Examples:
+
+    Country | ISO Code | Codepoints        | Emoji (if supported)
+    --------|----------|-------------------|---------------------
+    USA     | US       | U+1F1FA + U+1F1F8 | &#x1F1FA;&#x1F1F8;
+    Germany | DE       | U+1F1E9 + U+0F1EA | &#x1F1E9;&#x1F1EA;
+    China   | CN       | U+1F1E8 + U+0F1F3 | &#x1F1E8;&#x1F1F3;
 
 ## Record Holders and Extremes
 
