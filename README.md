@@ -27,6 +27,15 @@ maybe not widely known) features or are awesome in some other way.
     [U+DFFF](https://codepoints.net/U+DFFF) - surrogate codepoints. They are
     only reserved to ease [UTF-16
     encoding](https://en.wikipedia.org/wiki/UTF-16).
+* [U+FEFF](https://codepoints.net/U+FEFF) ZERO WIDTH NO-BREAK SPACE - it’s name
+    suggests, that it can be used like U+2060 WORD JOINER. And in fact the
+    latter was introduced to inherit its semantics. This is because U+FEFF had
+    become a special beacon called the [byte order
+    mark](https://en.wikipedia.org/wiki/Byte_order_mark), that was placed on
+    the beginning of some UTF-8 files. In complying software (including many
+    text editors) this character is stripped from the start of a file and
+    handled as metadata. In non-complying software (like the PHP interpreter)
+    this leads to all sorts of fun behaviour.
 * [U+FFFD](https://codepoints.net/U+FFFD) REPLACEMENT CHARACTER - when a
     character cannot be displayed (e.g., decoding an erroneous UTF-8 sequency),
     this codepoint steps into the breach.
@@ -63,8 +72,8 @@ maybe not widely known) features or are awesome in some other way.
     details, but in a nutshell: If you add one after a character, it is placed
     on top of that previous one. So, `a + ̊˚ = å`. This _may_ lead to all kinds
     of funny problems, because for some combinations there are pre-composed
-    characters. Our little `å` here might also be encoded as U+00E5. You might
-    note, that while this has a length of one character, the combination of a
+    characters. Our little `å` here can also be encoded as U+00E5. You might
+    note, that while this has a length of one character, the combination of `a`
     and combining ring has a length of two characters.
 
     Of course, one can also do fun things with those characters like
