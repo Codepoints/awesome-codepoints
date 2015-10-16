@@ -9,6 +9,7 @@ maybe not widely known) features or are awesome in some other way.
 2. [Codepoints that affect others](#codepoints-that-affect-others)
 3. [Record holders and extremes](#record-holders-and-extremes)
 4. [For funsies](#for-funsies)
+    1. [Games](#games)
 
 ## Standalone Codepoints
 
@@ -122,6 +123,24 @@ maybe not widely known) features or are awesome in some other way.
     &#x1F596;
 * [U+1F918](https://codepoints.net/U+1F918) SIGN OF THE HORNS - Rock on!
     &#x1F918;
+
+### Games
+
+For your plain-text gaming needs, Unicode is well equipped with several
+complete sets:
+
+* [Chess figures](https://codepoints.net/U+2654..U+265F).
+* [Card suits](https://codepoints.net/U+2660..U+2667) and even a whole [deck of
+    cards](https://codepoints.net/playing_cards) complete with joker and back
+    of card.
+* [Die faces](https://codepoints.net/U+2680..U+2685) and a nice [die
+    emoji](https://codepoints.net/U+1F3B2).
+* [Go pieces](https://codepoints.net/U+2686..U+2689).
+* [Draughts (or checkers) pieces](https://codepoints.net/U+26C0..U+26C3).
+* [Shogi pieces](https://codepoints.net/U+2616,U+2617,U+26C9,U+26CA), a
+    [Japanese variant of chess](https://en.wikipedia.org/wiki/Shogi).
+* [Domino tiles](https://codepoints.net/domino_tiles)
+* [Mahjong tiles](https://codepoints.net/mahjong_tiles)
 
 ## Contributing Your Codepoints
 
