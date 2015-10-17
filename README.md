@@ -108,6 +108,9 @@ maybe not widely known) features or are awesome in some other way.
     [U+16B61](https://codepoints.net/U+16B61) - codepoints that represent the
     highest “single-digit” number. In both cases that’s 1,000,000,000,000, a
     trillion.
+* [U+0F33](https://codepoints.net/U+0F33) TIBETAN DIGIT HALF ZERO - codepoint that
+    represents the _lowest_ “single-digit” number and at the same time the
+    only negative one, -½.
 
 ## For Funsies
 
