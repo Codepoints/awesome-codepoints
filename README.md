@@ -111,6 +111,16 @@ maybe not widely known) features or are awesome in some other way.
 * [U+0F33](https://codepoints.net/U+0F33) TIBETAN DIGIT HALF ZERO - codepoint that
     represents the _lowest_ “single-digit” number and at the same time the
     only negative one, -½.
+* The trophy for most useless codepoints goes to
+    [U+0080](https://codepoints.net/U+0080),
+    [U+0081](https://codepoints.net/U+0081) and
+    [U+0099](https://codepoints.net/U+0099). These so-called C1 control
+    characters are more or less unspecified. They got into Unicode, because
+    they were present in the very first version of what should later become ISO
+    10646, the ISO-standardized version of Unicode. They [were meant to be part
+    of an upgrade to ISO
+    2022](http://unicode.org/mail-arch/unicode-ml/y2015-m10/0050.html), that
+    never came to be.
 
 ## For Funsies
 
