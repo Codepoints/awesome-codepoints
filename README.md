@@ -7,6 +7,7 @@ maybe not widely known) features or are awesome in some other way.
 
 1. [Standalone codepoints](#standalone-codepoints)
 2. [Codepoints that affect others](#codepoints-that-affect-others)
+    1. [Breaking and Gluing other characters](#breaking-and-gluing-other-characters)
 3. [Record holders and extremes](#record-holders-and-extremes)
 4. [For funsies](#for-funsies)
     1. [Games](#games)
@@ -46,26 +47,17 @@ maybe not widely known) features or are awesome in some other way.
 
 ## Codepoints that Affect Others
 
-* [U+00A0](https://codepoints.net/U+00A0) NO-BREAK SPACE - force adjacent
-    characters to stick together. Well known as `&nbsp;` in HTML.
-* [U+00AD](https://codepoints.net/U+00AD) SOFT HYPHEN - (in HTML: `&shy;`)
-    like ZERO WIDTH SPACE, but show a hyphen if (and only if) a break occurs.
-* [U+200B](https://codepoints.net/U+200B) ZERO WIDTH SPACE - the inverse to
-    U+00A0: create no space, but allow word breaking.
-* [U+200D](https://codepoints.net/U+200D) ZERO WIDTH JOINER - force adjacent
-    characters to be joined together (e.g., arabic characters or supported
-    emoji). Apple uses this to compose some emoji like different families.
 * [U+202D](https://codepoints.net/U+202D) and
     [U+202E](https://codepoints.net/U+202E) - change the text direction.
     Relevant XKCD:
 
     [![](http://imgs.xkcd.com/comics/rtl.png )](https://xkcd.com/1137/)
-* [U+2060](https://codepoints.net/U+2060) WORD JOINER - the same as
-    U+00A0, but completely invisible. Good for writing `@font-face` on Twitter.
 * [U+FE0E](https://codepoints.net/U+FE0E) VARIATION SELECTOR-15 - force
-    colorful emoji.
+    colorful emoji. If this codepoint follows an emoji, an explicit colorful
+    rendering of the emoji is requested (if the client supports it).
 * [U+FE0F](https://codepoints.net/U+FE0F) VARIATION SELECTOR-16 - force
-    black-_&_-white emoji.
+    black-_&_-white emoji. If this codepoint follows an emoji, an explicit
+    monochrome rendering of the emoji is requested (if the client supports it).
 * Diacritics and combining marks: There is a [host of
     characters](https://codepoints.net/search?gc=Mn), that add
     to the characters before. Those are called Combining Marks. Unicode
@@ -90,6 +82,29 @@ maybe not widely known) features or are awesome in some other way.
     USA     | US       | U+1F1FA + U+1F1F8 | &#x1F1FA;&#x1F1F8;
     Germany | DE       | U+1F1E9 + U+0F1EA | &#x1F1E9;&#x1F1EA;
     China   | CN       | U+1F1E8 + U+0F1F3 | &#x1F1E8;&#x1F1F3;
+
+### Breaking and Gluing other characters
+
+* [U+00A0](https://codepoints.net/U+00A0) NO-BREAK SPACE - force adjacent
+    characters to stick together. Well known as `&nbsp;` in HTML.
+* [U+00AD](https://codepoints.net/U+00AD) SOFT HYPHEN - (in HTML: `&shy;`)
+    like ZERO WIDTH SPACE, but show a hyphen if (and only if) a break occurs.
+* [U+200B](https://codepoints.net/U+200B) ZERO WIDTH SPACE - the inverse to
+    U+00A0: create no space, but allow word breaking.
+* [U+200D](https://codepoints.net/U+200D) ZERO WIDTH JOINER - force adjacent
+    characters to be joined together (e.g., arabic characters or supported
+    emoji). Apple uses this to compose some emoji like different families.
+* [U+2060](https://codepoints.net/U+2060) WORD JOINER - the same as
+    U+00A0, but completely invisible. Good for writing `@font-face` on Twitter.
+
+For better comparison of which codepoint has which effect, consult this handy
+table:
+
+               | U+00A0 | U+00AD | U+200B | U+200D | U+2060
+---------------|--------|--------|--------|--------|--------
+create space   |   ✓    |   ✗    |   ✗    |   ✗    |   ✗
+allow breaking |   ✗    |   ✓    |   ✓    |   ✗    |   ✗
+possible change|   ✗    |   ✓    |   ✗    |   ✓    |   ✗
 
 ## Record Holders and Extremes
 
