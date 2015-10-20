@@ -106,6 +106,10 @@ create space   |   ✓    |   ✗    |   ✗    |   ✗    |   ✗
 allow breaking |   ✗    |   ✓    |   ✓    |   ✗    |   ✗
 possible change|   ✗    |   ✓    |   ✗    |   ✓    |   ✗
 
+Smashing magazine featured [a comprehensive
+article](http://www.smashingmagazine.com/2015/10/space-yourself/) on the
+different types of whitespace.
+
 ## Record Holders and Extremes
 
 * [U+0000](https://codepoints.net/U+0000) &lt;control> - first codepoint.
