@@ -82,6 +82,25 @@ maybe not widely known) features or are awesome in some other way.
     USA     | US       | U+1F1FA + U+1F1F8 | &#x1F1FA;&#x1F1F8;
     Germany | DE       | U+1F1E9 + U+0F1EA | &#x1F1E9;&#x1F1EA;
     China   | CN       | U+1F1E8 + U+0F1F3 | &#x1F1E8;&#x1F1F3;
+* Skin color of emoji: There are five code points, that control the skin color
+    of emoji, [U+1F3FB to U+1F3FF](https://codepoints.net/U+1F3FB..U+1F3FF).
+    They are called “Emoji Modifier Fitzpatrick Type” 1 to 6, with 1 the palest
+    and 6 the darkest. If one of these characters follows an emoji, that emoji
+    is meant to be rendered in the appropriate skin color of [the Fitzpatrick
+    scale](https://en.wikipedia.org/wiki/Fitzpatrick_scale). If no such
+    modifier is added, the skin tone should be unnatural, e. g., bright yellow.
+    Fun fact: Since the Fitzpatrick modifiers are normal code points, emoji
+    with such skin colors have the length 2, which Twitter users noticed first.
+    Here is a handy comparison chart [directly from the
+    specification](http://www.unicode.org/reports/tr51/tr51-2.html#Diversity):
+
+    Code    | Name                                | Samples
+    --------|-------------------------------------|---------
+    U+1F3FB | EMOJI MODIFIER FITZPATRICK TYPE-1-2 | <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-1-2.png" alt="" height="20" width="auto"> <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-1-2-bw.png" alt="" height="20" width="auto">
+    U+1F3FC | EMOJI MODIFIER FITZPATRICK TYPE-3   | <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-3.png" alt="" height="20" width="auto">   <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-3-bw.png" alt="" height="20" width="auto">
+    U+1F3FD | EMOJI MODIFIER FITZPATRICK TYPE-4   | <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-4.png" alt="" height="20" width="auto">   <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-4-bw.png" alt="" height="20" width="auto">
+    U+1F3FE | EMOJI MODIFIER FITZPATRICK TYPE-5   | <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-5.png" alt="" height="20" width="auto">   <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-5-bw.png" alt="" height="20" width="auto">
+    U+1F3FF | EMOJI MODIFIER FITZPATRICK TYPE-6   | <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-6.png" alt="" height="20" width="auto">   <img src="http://www.unicode.org/reports/tr51/images/other/swatch-type-6-bw.png" alt="" height="20" width="auto">
 
 ### Breaking and Gluing other characters
 
