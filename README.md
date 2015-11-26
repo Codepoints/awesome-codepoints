@@ -11,6 +11,8 @@ maybe not widely known) features or are awesome in some other way.
 3. [Record holders and extremes](#record-holders-and-extremes)
 4. [For funsies](#for-funsies)
     1. [Games](#games)
+5. [Contributing](#contributing-your-code-points)
+6. [License](#license)
 
 ## Standalone Code Points
 
@@ -91,7 +93,7 @@ maybe not widely known) features or are awesome in some other way.
     modifier is added, the skin tone should be unnatural, e. g., bright yellow.
     Fun fact: Since the Fitzpatrick modifiers are normal code points, emoji
     with such skin colors have the length 2, which Twitter users noticed first.
-    Here is a handy comparison chart [directly from the
+    Here is a comparison chart [directly from the
     specification](http://www.unicode.org/reports/tr51/tr51-2.html#Diversity):
 
     Code    | Name                                | Samples
@@ -116,7 +118,7 @@ maybe not widely known) features or are awesome in some other way.
 * [U+2060](https://codepoints.net/U+2060) WORD JOINER - the same as
     U+00A0, but completely invisible. Good for writing `@font-face` on Twitter.
 
-For better comparison of which code point has which effect, consult this handy
+For better comparison of which code point has which effect, consult this
 table:
 
                | U+00A0 | U+00AD | U+200B | U+200D | U+2060
@@ -125,7 +127,7 @@ create space   |   ✓    |   ✗    |   ✗    |   ✗    |   ✗
 allow breaking |   ✗    |   ✓    |   ✓    |   ✗    |   ✗
 possible change|   ✗    |   ✓    |   ✗    |   ✓    |   ✗
 
-Smashing magazine featured [a comprehensive
+Smashing Magazine featured [a comprehensive
 article](http://www.smashingmagazine.com/2015/10/space-yourself/) on the
 different types of whitespace.
 
@@ -181,8 +183,7 @@ different types of whitespace.
 
 ### Games
 
-For your plain-text gaming needs, Unicode is well equipped with several
-complete sets:
+For plain-text gaming, Unicode is well equipped with several complete sets:
 
 * [Chess figures](https://codepoints.net/U+2654..U+265F).
 * [Card suits](https://codepoints.net/U+2660..U+2667) and even a whole [deck of
