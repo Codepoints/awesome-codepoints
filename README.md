@@ -161,6 +161,13 @@ different types of whitespace.
     of an upgrade to ISO
     2022](http://unicode.org/mail-arch/unicode-ml/y2015-m10/0050.html), that
     never came to be.
+* [U+006F](https://codepoints.net/U+006F) LATIN SMALL LETTER O - leads the list
+    of characters with confusable shapes. Of all the possible mappings in the
+    [list of confusable
+    characters](http://www.unicode.org/reports/tr39/#Data_Files), the small “o”
+    leads with a whopping 73 entries of similar looking glyphs, followed by
+    [U+006C](https://codepoints.net/U+006C) LATIN SMALL LETTER L with 70
+    entries.
 
 ## For Funsies
 
