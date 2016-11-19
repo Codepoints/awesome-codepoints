@@ -55,11 +55,11 @@ maybe not widely known) features or are awesome in some other way.
 
     [![](http://imgs.xkcd.com/comics/rtl.png )](https://xkcd.com/1137/)
 * [U+FE0E](https://codepoints.net/U+FE0E) VARIATION SELECTOR-15 - force
-    colorful emoji. If this code point follows an emoji, an explicit colorful
-    rendering of the emoji is requested (if the client supports it).
-* [U+FE0F](https://codepoints.net/U+FE0F) VARIATION SELECTOR-16 - force
     black-_&_-white emoji. If this code point follows an emoji, an explicit
     monochrome rendering of the emoji is requested (if the client supports it).
+* [U+FE0F](https://codepoints.net/U+FE0F) VARIATION SELECTOR-16 - force
+    colorful emoji. If this code point follows an emoji, an explicit colorful
+    rendering of the emoji is requested (if the client supports it).
 * Diacritics and combining marks: There is a [host of
     characters](https://codepoints.net/search?gc=Mn), that add
     to the characters before. Those are called Combining Marks. Unicode
