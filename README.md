@@ -187,6 +187,8 @@ different types of whitespace.
     &#x1F596;
 * [U+1F918](https://codepoints.net/U+1F918) SIGN OF THE HORNS - Rock on!
     &#x1F918;
+* [U+2800](https://codepoints.net/U+2800) BRAILLE PATTERN BLANK - A Braille pattern that has zero of its six or eight dots filled in. According to the standard: “* while this character is imaged as a fixed-width blank in many fonts, it does not act as a space” Essentially it is rendered as white-space, but since it is designated as *not* white-space it isn't matched by white-space-validating regular expressions. This can be used to bypass all kinds of validation that disallows or trims white-space.
+
 
 ### Games
 
