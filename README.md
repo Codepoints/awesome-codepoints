@@ -134,10 +134,10 @@ different types of whitespace.
 ## Record Holders and Extremes
 
 * [U+0000](https://codepoints.net/U+0000) &lt;control> - first code point.
-* [U+EFFFF](https://codepoints.net/U+EFFFF) (_non-character_) - last (currently
-    defined) code point. [U+10FFFF](https://codepoints.net/U+10FFFF) is the
-    ultimately last one, but it is a private use character, that is guaranteed
-    to be never defined by Unicode.
+* [U+10FFFF](https://codepoints.net/U+10FFFF) (_non-character_) - last code
+    point. The whole rest of its plane apart from U+10FFFE, the code points
+    in the 0x10000-0x10FFFD range, are private use characters, guaranteed to
+    be never filled by a future Unicode standard.
 * [U+1F402](https://codepoints.net/U+1F402) OX - shortest name.
 * [U+FBFB](https://codepoints.net/U+FBFB) ARABIC LIGATURE UIGHUR KIRGHIZ YEH
     WITH HAMZA ABOVE WITH ALEF MAKSURA INITIAL FORM - longest name: 82
