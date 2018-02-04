@@ -65,7 +65,7 @@ maybe not widely known) features or are awesome in some other way.
     to the characters before. Those are called Combining Marks. Unicode
     provides a [handy FAQ](http://unicode.org/faq/char_combmark.html) on the
     details, but in a nutshell: If you add one after a character, it is placed
-    on top of that previous one. So, `a + ̊˚ = å`. This _may_ lead to all kinds
+    on top of that previous one. So, `a + ̊ = å`. This _may_ lead to all kinds
     of funny problems, because for some combinations there are pre-composed
     characters. Our little `å` here can also be encoded as U+00E5. You might
     note, that while this has a length of one character, the combination of `a`
