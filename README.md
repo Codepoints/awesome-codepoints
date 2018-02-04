@@ -168,6 +168,7 @@ different types of whitespace.
     leads with a whopping 73 entries of similar looking glyphs, followed by
     [U+006C](https://codepoints.net/U+006C) LATIN SMALL LETTER L with 70
     entries.
+* [U+1F4C0](https://codepoints.net/U+1F4C0) DVD - only code point name without any vowel ([source](https://twitter.com/ken_lunde/status/960188623390846976))
 
 ## For Funsies
 
