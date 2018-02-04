@@ -139,8 +139,8 @@ different types of whitespace.
     in the 0x10000-0x10FFFD range, are private use characters, guaranteed to
     be never filled by a future Unicode standard.
 * [U+1F402](https://codepoints.net/U+1F402) OX - shortest name.
-* [U+FBFB](https://codepoints.net/U+FBFB) ARABIC LIGATURE UIGHUR KIRGHIZ YEH
-    WITH HAMZA ABOVE WITH ALEF MAKSURA INITIAL FORM - longest name: 82
+* [U+FBF9](https://codepoints.net/U+FBF9) ARABIC LIGATURE UIGHUR KIRGHIZ YEH
+    WITH HAMZA ABOVE WITH ALEF MAKSURA ISOLATED FORM - longest name: 82
     characters.
 * [U+FDFA](https://codepoints.net/U+FDFA) ARABIC LIGATURE SALLALLAHOU ALAYHE
     WASALLAM - longest decomposition form: 18 characters.
