@@ -140,7 +140,7 @@ different types of whitespace.
     be never filled by a future Unicode standard.
 * [U+1F402](https://codepoints.net/U+1F402) OX - shortest name.
 * [U+FBF9](https://codepoints.net/U+FBF9) ARABIC LIGATURE UIGHUR KIRGHIZ YEH
-    WITH HAMZA ABOVE WITH ALEF MAKSURA ISOLATED FORM - longest name: 82
+    WITH HAMZA ABOVE WITH ALEF MAKSURA ISOLATED FORM - longest name: 83
     characters.
 * [U+FDFA](https://codepoints.net/U+FDFA) ARABIC LIGATURE SALLALLAHOU ALAYHE
     WASALLAM - longest decomposition form: 18 characters.
