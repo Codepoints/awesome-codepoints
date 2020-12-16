@@ -46,7 +46,7 @@ maybe not widely known) features or are awesome in some other way.
 * [U+1D455](https://codepoints.net/U+1D455) is missing. It would be an italic
     small “h”. It was not encoded, because it would be identical to the Planck
     constant ℎ ([U+210E](https://codepoints.net/U+210E)).
-* [U+FF03](https://codepoints.net/U+1D455) FULLWIDTH NUMBER SIGN - it is the 
+* [U+FF03](https://codepoints.net/U+FF03) FULLWIDTH NUMBER SIGN - it is the 
     "Japanese Hashtag" `＃`. Sites like Twitter accept it as equivalent to the 
     regular `#` ([U+0023](https://codepoints.net/U+0023)).
 
