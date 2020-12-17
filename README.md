@@ -165,6 +165,22 @@ different types of whitespace.
     of an upgrade to ISO
     2022](http://unicode.org/mail-arch/unicode-ml/y2015-m10/0050.html), that
     never came to be.
+* A close second place in this regard goes to the CJK unified ideographs
+    [妛](https://codepoints.net/U+599B),
+    [挧](https://codepoints.net/U+6327),
+    [暃](https://codepoints.net/U+6683),
+    [椦](https://codepoints.net/U+6926),
+    [槞](https://codepoints.net/U+69DE),
+    [蟐](https://codepoints.net/U+87D0),
+    [袮](https://codepoints.net/U+88AE),
+    [閠](https://codepoints.net/U+95A0),
+    [駲](https://codepoints.net/U+99F2),
+    [墸](https://codepoints.net/U+58B8),
+    [壥](https://codepoints.net/U+58E5), and
+    [彁](https://codepoints.net/U+5F41). These so-called [“ghost characters”](https://www.dampfkraft.com/ghost-characters.html)
+    came to Unicode via the Japanese JIS standard, where they were added, because
+    they were mis-read or misinterpreted from other signs, when JIS was compiled
+    from original printed text sources.
 * [U+006F](https://codepoints.net/U+006F) LATIN SMALL LETTER O - leads the list
     of characters with confusable shapes. Of all the possible mappings in the
     [list of confusable
