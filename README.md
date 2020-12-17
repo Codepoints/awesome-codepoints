@@ -85,8 +85,8 @@ maybe not widely known) features or are awesome in some other way.
     Country | ISO Code | Code Points       | Emoji (if supported)
     --------|----------|-------------------|---------------------
     USA     | US       | U+1F1FA + U+1F1F8 | &#x1F1FA;&#x1F1F8;
-    Germany | DE       | U+1F1E9 + U+0F1EA | &#x1F1E9;&#x1F1EA;
-    China   | CN       | U+1F1E8 + U+0F1F3 | &#x1F1E8;&#x1F1F3;
+    Germany | DE       | U+1F1E9 + U+1F1EA | &#x1F1E9;&#x1F1EA;
+    China   | CN       | U+1F1E8 + U+1F1F3 | &#x1F1E8;&#x1F1F3;
 * Skin color of emoji: There are five code points, that control the skin color
     of emoji, [U+1F3FB to U+1F3FF](https://codepoints.net/U+1F3FB..U+1F3FF).
     They are called “Emoji Modifier Fitzpatrick Type” 1 to 6, with 1 the palest
