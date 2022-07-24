@@ -11,8 +11,9 @@ maybe not widely known) features or are awesome in some other way.
 3. [Record holders and extremes](#record-holders-and-extremes)
 4. [For funsies](#for-funsies)
     1. [Games](#games)
-5. [Contributing](#contributing-your-code-points)
-6. [License](#license)
+5. [Other Lists of Code Points](#other-lists-of-code-points)
+6. [Contributing](#contributing-your-code-points)
+7. [License](#license)
 
 ## Standalone Code Points
 
