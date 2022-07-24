@@ -228,6 +228,10 @@ For plain-text gaming, Unicode is well equipped with several complete sets:
 * [Domino tiles](https://codepoints.net/domino_tiles)
 * [Mahjong tiles](https://codepoints.net/mahjong_tiles)
 
+## Other Lists of Code Points
+
+* [Cross-platform terminal characters](https://github.com/ehmicky/cross-platform-terminal-characters) - a list of characters that work on most terminals.
+
 ## Contributing Your Code Points
 
 See [the contribution guide](CONTRIBUTING.md) for details.
