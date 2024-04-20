@@ -190,6 +190,10 @@ different types of whitespace.
     [U+006C](https://codepoints.net/U+006C) LATIN SMALL LETTER L with 70
     entries.
 * [U+1F4C0](https://codepoints.net/U+1F4C0) DVD - only code point name without any vowel ([source](https://twitter.com/ken_lunde/status/960188623390846976))
+* [U+3106C](https://codepoints.net/U+3106C) CJK UNIFIED IDEOGRAPH 3106C - the
+    character with the most
+    [strokes](https://en.wikipedia.org/wiki/Chinese_character_strokes): 84.
+    Take your time to write this one!
 
 ## For Funsies
 
