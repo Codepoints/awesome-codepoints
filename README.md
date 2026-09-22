@@ -140,7 +140,7 @@ different types of whitespace.
 * [U+0000](https://codepoints.net/U+0000) &lt;control> - first code point.
 * [U+10FFFF](https://codepoints.net/U+10FFFF) (_non-character_) - last code
     point. The whole rest of its plane apart from U+10FFFE, the code points
-    in the 0x10000-0x10FFFD range, are private use characters, guaranteed to
+    in the 0x100000-0x10FFFD range, are private use characters, guaranteed to
     be never filled by a future Unicode standard.
 * [U+1F402](https://codepoints.net/U+1F402) OX - shortest name.
 * U+1FBA8 BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT AND MIDDLE RIGHT TO LOWER CENTRE
